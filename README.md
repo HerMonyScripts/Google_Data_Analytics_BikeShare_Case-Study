@@ -1,6 +1,7 @@
 # Google_Data_Analytics_BikeShare_Case-Study
 This repository is about my Google Data Analytics capstone project.
 **Course:** Google Data Analytics Capstone: Complete a Case Study
+https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md
 
 INTRODUCTION
 I am to work as a junior data analyst for a fictictional company, Cyclistic, along with other some key team members. I am to perform a data anaylsis using the company's annual dataset to help the company attract more riders.
