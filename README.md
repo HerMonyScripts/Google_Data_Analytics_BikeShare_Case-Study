@@ -67,7 +67,11 @@ Considering the bulkiness of the dataset, using spreadsheet is out of the pictur
 **Note:** I’ll be working with the RStudio desktop, as the memory of the free Posit.Cloud is not enough to accommodate all the 12 months files.
 
 _Disclaimer:_ In the console, each line that starts with #, only indicates it’s a comment, it is for clarity sake and not in any way a line of code.  
-To get started, I’ll start by installing and loading the necessary packages required for this process, and this packages includes: Tidyverse, Lubridate, and Janitor
+To get started, I’ll start by installing and loading the necessary packages required for this process, and this packages includes: Tidyverse, Lubridate, and Janitor.  
 
+` # Installing packages `  
+`install.packages("tidyverse")`  
+`install.packages("lubridate")`  
+`install.packages("janitor")`
 
 
