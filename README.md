@@ -3,20 +3,20 @@ This repository is about my Google Data Analytics capstone project.
 
 **Course:** [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone/home/module/1)
 
-# **INTRODUCTION**
+## **INTRODUCTION**
 
 I am to work as a junior data analyst for a fictictional company, Cyclistic, along with other some key team members. I am to perform a data anaylsis using the company's annual dataset to help the company attract more riders.
-I will be adopting the six (6) phases of data analysis, which includes: the Ask, Prepare, Process, Analyse, Share and Act phases in other to answer the business question.
+I will be adopting the six (6) phases of data analysis, which includes: the [Ask](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#ask-phase), [Prepare](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#prepare-phase), [Process](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#process-phase), [Analyze](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#analyze-phase), Share and Act phases in other to answer the business question.
 
-# **CASE STUDY**
-# **Scenario**
+## **CASE STUDY**
+### **Scenario**
 You are a junior data analyst working on the marketing analyst team at Cyclistic, a bike-share
 company in Chicago. The director of marketing believes the company’s future success
 depends on maximizing the number of annual memberships. Therefore, your team wants to
 understand how casual riders and annual members use Cyclistic bikes differently. From these
 insights, your team will design a new marketing strategy to convert casual riders into annual
 members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
-# About The Company
+### About The Company
 In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime.
 
 
@@ -39,14 +39,14 @@ annual members. In order to do that, however, the team needs to better understan
 annual members and casual riders differ, why casual riders would buy a membership, and how
 digital media could affect their marketing tactics. Moreno and her team are interested in
 analyzing the Cyclistic historical bike trip data to identify trends.
-# Ask Phase
+### Ask Phase
 It is of utmost importance understand the business task or the question to be answered. In this case study, below are the three questions/business tasks that will guide the future marketing program:
 1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 Moreno has assigned you the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
-# Prepare Phase
+### Prepare Phase
 I’ll be working with Cyclistic’s historical trip data [_here_](https://divvy-tripdata.s3.amazonaws.com/index.html). I’ll be working with 12 Months of the Cyclistic’s data history, from Jan - Dec 2021 to analyze and identify trends.
 
 _Disclaimer:_ The data has been made available by Motivate International Inc. under this [_license_](https://divvybikes.com/data-license-agreement)
@@ -62,7 +62,7 @@ Divvy_2021_02.csv  <-  202102_divvy_tripdata.csv
 Divvy_2021_03.csv  <-  202103_divvy_tripdata.csv  
 Divvy_2021_04.csv  <-  202104_divvy_tripdata.csv  
 And so on...
-# Process Phase
+### Process Phase
 Considering the bulkiness of the dataset, using spreadsheet is out of the picture as it won’t be able to handle a sheer amount of the dataset. So, for this reason, I opted out for RStudio instead.  
 **Note:** I’ll be working with the RStudio desktop, as the memory of the free Posit.Cloud is not enough to accommodate all the 12 months files.
 
@@ -99,7 +99,18 @@ At this point, it is crucial to revisit the business track. This helps one stay 
 2. Trip Duration
 3. Start hour
 4. Day of the week
+[Added Columns.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Added%20Columns.R)
 
+After processing the datasets, I’ll go ahead and clean one last time. This is to ensure that the added columns have no errors within them.
+In this case, I’ll have to remove rows that have Trip_duration of 0 seconds or less. However, I would just go ahead and create a new dataframe that do not contain rows with Trip_duration of 0 seconds or less using “!” and I’ll name this dataframe Cleaned_Divvy2021
+
+#### # “!” means is not equal to
+`Cleaned_Divvy2021 <- Merged_Divvy2021 [!(Merged_Divvy2021$Trip_duration<=0),]`
+
+From here, I can now go ahead and export my summary file for further analysis. I’ll be using it to create more visualization in Tableau, though I'll still create some in R. I export the dataframe using the write.csv() function.
+
+`write.csv(Cleaned_Divvy2021, file = “Cyclistic_Divvy2021.csv”)`
+### Analyze Phase
 
 
 
