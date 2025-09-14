@@ -111,6 +111,23 @@ From here, I can now go ahead and export my summary file for further analysis. I
 
 `write.csv(Cleaned_Divvy2021, file = “Cyclistic_Divvy2021.csv”)`
 ### Analyze Phase
+Now it’s time to analyze the data and look for key information needed to perform analysis, and afterward, plot/visualize it!
+
+In order to answer the first business question - how do casual and annual members using Cyclistic differently. It would be of great help to do some plotting from the information in our dataset. 
+
+**Analyzing Bike Usage Patterns**  
+Weekly Usage: Compare how casual riders and annual members utilize bikes on different days of the week.  
+Peak Hours: Identify the busiest times of day for bike usage for both user types.  
+Annual Trends: Examine how bike usage fluctuates throughout the year.  
+Trip Duration: Determine the average trip length for casual riders versus members.  
+Popular Stations: Pinpoint the most frequently used stations for both casual and annual users.
+
+**Key Insights**  
+Analyzing these visualizations will provide insights into the distinct behaviors of casual and member riders. For instance, you might discover that casual riders use bikes primarily on weekends for leisure, while members use them for daily commutes during the week. Understanding these differences is crucial for developing targeted marketing strategies to convert casual riders into annual members.  
+For the plotting, I’ll be utilizing the ggplot2() package in R.
+
+(The plots codes and plots)
+
 
 
 
