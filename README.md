@@ -110,7 +110,7 @@ In this case, I’ll have to remove rows that have Trip_duration of 0 seconds or
 From here, I can now go ahead and export my summary file for further analysis. I’ll be using it to create more visualization in Tableau, though I'll still create some in R. I export the dataframe using the write.csv() function.
 
 `write.csv(Cleaned_Divvy2021, file = “Cyclistic_Divvy2021.csv”)`
-### Analyze Phase
+### Analyze & Share Phase
 
 
 
