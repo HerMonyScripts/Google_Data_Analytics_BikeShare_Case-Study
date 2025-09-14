@@ -68,10 +68,29 @@ Considering the bulkiness of the dataset, using spreadsheet is out of the pictur
 
 _Disclaimer:_ In the console, each line that starts with #, only indicates it’s a comment, it is for clarity sake and not in any way a line of code.  
 To get started, I’ll start by installing and loading the necessary packages required for this process, and this packages includes: Tidyverse, Lubridate, and Janitor.  
+[Packages.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Packages.R)  
+Note: I also loaded the “readr” package as it is essential for importing of the files.
 
-` # Installing packages `  
-`install.packages("tidyverse")`  
-`install.packages("lubridate")`  
-`install.packages("janitor")`
+Subsequently, I’ll have to import the files into our RStudio using the read_csv function. For more clarity, I’ll be renaming the dataframes while importing.  
+<img width="2560" height="1440" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/69ab0aa7-c0a6-490f-adce-0fdad11c606e" />
+[**IMAGE TO BE CHANGED**]
+
+Next would be to check the structure of our dataset using the str() function. This is crucial as I would be merging all the csv files into one table called dataframe. So, I need to check if there’s any inconsistencies in the formatting (maybe a dataset’s ID column being formatted as “int” and the other formatted as “chr”.  
+The 12 datasets need to have the same column names and formatting type. Also, I need to check if there are any wrongly formatted data types.
+
+The str() function will help list the structures of the datasets:  
+[**ATTACH AN IMAGE**]
+
+The result is the following:
+
+[**Attach a document**]
+
+There are seven (7) more outputs of the above but to reduce clutter, I had to show just the above three (3).
+From what you can see above, the columns ID’s are identical and well formatted so no transformation whatsoever is needed here.
+
+Now my datasets are ready to be merged into one dataframe and I’ll be naming it Merged_Divvy2021 and to achieve that I’ll be using the bind_rows() function.
+
+
+
 
 
