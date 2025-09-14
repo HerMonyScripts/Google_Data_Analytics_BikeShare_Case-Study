@@ -92,6 +92,13 @@ Now my datasets are ready to be merged into one dataframe and I’ll be naming i
 [Data Merging.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Data%20Merging.R)
 
 After the merging, following the steps as provided in the case study guide, I’ll need to do more extra cleaning. I need to clean my column names to remove extra spaces, parentheses, camelCase, e.t.c.
+[Data Cleaning.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Data%20Cleaning.R)
+
+At this point, it is crucial to revisit the business track. This helps one stay on track and not drift off from what is being asked. After going through the business task and also from the steps provided in the case study guide, creating new columns is required to be able to answer the business question. Therefore, I’ll go ahead and create the following columns:  
+1. Month
+2. Trip Duration
+3. Start hour
+4. Day of the week
 
 
 
