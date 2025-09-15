@@ -57,10 +57,10 @@ Here:
 <img width="2560" height="1440" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/99f26a99-8a83-44ae-83fe-8f5387b38467" />
 
 For readability and clarity purposes, especially for other team members, I had to rename the files using the below format:  
-Divvy_2021_01.csv  <-  202101_divvy_tripdata.csv  
-Divvy_2021_02.csv  <-  202102_divvy_tripdata.csv  
-Divvy_2021_03.csv  <-  202103_divvy_tripdata.csv  
-Divvy_2021_04.csv  <-  202104_divvy_tripdata.csv  
+`Divvy_2021_01.csv  <-  202101_divvy_tripdata.csv`  
+`Divvy_2021_02.csv  <-  202102_divvy_tripdata.csv`  
+`Divvy_2021_03.csv  <-  202103_divvy_tripdata.csv`  
+`Divvy_2021_04.csv  <-  202104_divvy_tripdata.csv`  
 And so on...
 ### Process Phase
 Considering the bulkiness of the dataset, using spreadsheet is out of the picture as it won’t be able to handle a sheer amount of the dataset. So, for this reason, I opted out for RStudio instead.  
@@ -72,20 +72,19 @@ To get started, I’ll start by installing and loading the necessary packages re
 Note: I also loaded the “readr” package as it is essential for importing of the files.
 
 Subsequently, I’ll have to import the files into our RStudio using the read_csv function. For more clarity, I’ll be renaming the dataframes while importing.  
-<img width="2560" height="1440" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/69ab0aa7-c0a6-490f-adce-0fdad11c606e" />
-[**IMAGE TO BE CHANGED**]
+<img width="1369" height="526" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/957eb622-553f-4bfa-9d15-a6c4889d65b0" />
+
 
 Next would be to check the structure of our dataset using the str() function. This is crucial as I would be merging all the csv files into one table called dataframe. So, I need to check if there’s any inconsistencies in the formatting (maybe a dataset’s ID column being formatted as “int” and the other formatted as “chr”.  
 The 12 datasets need to have the same column names and formatting type. Also, I need to check if there are any wrongly formatted data types.
 
 The str() function will help list the structures of the datasets:  
-[**ATTACH AN IMAGE**]
+<img width="1399" height="462" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/c76fe080-1efb-485f-8ea2-36fa99c1b696" />
 
 The result is the following:
+<img width="1389" height="1117" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/aa6c32a8-69fe-400c-a75b-3f76c6d9b9b1" />
 
-[**Attach a document**]
-
-There are seven (7) more outputs of the above but to reduce clutter, I had to show just the above three (3).
+There are eight (8) more outputs of the above but to reduce clutter, I had to show just the above two (2).
 From what you can see above, the columns ID’s are identical and well formatted so no transformation whatsoever is needed here.
 
 Now my datasets are ready to be merged into one dataframe and I’ll be naming it Merged_Divvy2021 and to achieve that I’ll be using the bind_rows() function.  
