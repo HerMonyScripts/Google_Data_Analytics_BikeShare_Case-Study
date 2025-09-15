@@ -88,7 +88,11 @@ There are eight (8) more outputs of the above but to reduce clutter, I had to sh
 From what you can see above, the columns ID’s are identical and well formatted so no transformation whatsoever is needed here.
 
 Now my datasets are ready to be merged into one dataframe and I’ll be naming it Merged_Divvy2021 and to achieve that I’ll be using the bind_rows() function.  
-[Data Merging.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Data%20Merging.R)
+[Data Merging.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Data%20Merging.R)  
+
+Checking the structure of the new dataframe is important. Below is the result:
+<img width="1402" height="693" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/08dde2ac-ef39-458b-9d04-e50f665c274a" />
+
 
 After the merging, following the steps as provided in the case study guide, I’ll need to do more extra cleaning. I need to clean my column names to remove extra spaces, parentheses, camelCase, e.t.c.
 [Data Cleaning.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Data%20Cleaning.R)
