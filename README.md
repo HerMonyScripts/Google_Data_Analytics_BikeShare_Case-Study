@@ -121,16 +121,19 @@ In order to answer the first business question - how do casual and annual member
 
 **Analyzing Bike Usage Patterns**  
 **Weekly Usage:** Compare how casual riders and annual members utilize bikes on different days of the week.  
-**Peak Hours:** Identify the busiest times of day for bike usage for both user types.  
+**Hourly Usage Throughout the Week:** Identify the busiest times of day for bike usage for both user types.  
 **Monthly Usage:** Examine how bike usage fluctuates throughout the year.  
 **Trip Duration:** Determine the average trip length for casual riders versus members.  
 **Popular Stations:** Pinpoint the most frequently used stations for both casual and annual users.
 
 **Key Insights**  
 Analyzing these visualizations will provide insights into the distinct behaviors of casual and member riders. For instance, you might discover that casual riders use bikes primarily on weekends for leisure, while members use them for daily commutes during the week. Understanding these differences is crucial for developing targeted marketing strategies to convert casual riders into annual members.  
-For the plotting, I’ll be utilizing the ggplot2() package in R.
+For the plotting, I’ll be utilizing the ggplot2() package in R.  
+[Analysis & Visualization.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Analysis%20%26%20Visualization.R)
 
-(The plots codes and plots)
+**Visuals:**
+![Rplot01](https://github.com/user-attachments/assets/3ae77e26-4e99-4961-9071-b7e1df454f2a)
+
 
 
 
