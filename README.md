@@ -107,8 +107,9 @@ At this point, it is crucial to revisit the business track. This helps one stay 
 After processing the datasets, I’ll go ahead and clean one last time. This is to ensure that the added columns have no errors within them.
 In this case, I’ll have to remove rows that have Trip_duration of 0 seconds or less. However, I would just go ahead and create a new dataframe that do not contain rows with Trip_duration of 0 seconds or less using “!” and I’ll name this dataframe Cleaned_Divvy2021
 
-#### # “!” means is not equal to
-`Cleaned_Divvy2021 <- Merged_Divvy2021 [!(Merged_Divvy2021$Trip_duration<=0),]`
+<img width="1389" height="140" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/b3d1fe29-8d8b-49e6-9ef4-5d76ba1e8599" />
+
+
 
 From here, I can now go ahead and export my summary file for further analysis. I’ll be using it to create more visualization in Tableau, though I'll still create some in R. I export the dataframe using the write.csv() function.
 
