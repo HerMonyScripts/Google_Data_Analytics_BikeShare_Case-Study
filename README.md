@@ -104,8 +104,8 @@ At this point, it is crucial to revisit the business track. This helps one stay 
 4. Day of the week
 [Added Columns.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Added%20Columns.R)
 
-After processing the datasets, I’ll go ahead and clean one last time. This is to ensure that the added columns have no errors within them.
-In this case, I’ll have to remove rows that have Trip_duration of 0 seconds or less. However, I would just go ahead and create a new dataframe that do not contain rows with Trip_duration of 0 seconds or less using “!” and I’ll name this dataframe Cleaned_Divvy2021
+After processing the datasets, I’ll go ahead and clean one last time. This is to remove any bad data and my main focus is on the Trip_duration column. 
+I'll go ahead and remove trips that are less 1 minute and those more than 24 hours (1440 mins) 
 
 <img width="1389" height="140" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/b3d1fe29-8d8b-49e6-9ef4-5d76ba1e8599" />
 
