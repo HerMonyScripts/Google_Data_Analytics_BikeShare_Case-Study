@@ -118,7 +118,11 @@ Now it’s time to analyze the data and look for key information needed to perfo
 
 In order to answer the first business question - how do casual and annual members using Cyclistic differently. I will carry out a descriptive analysis. [Analysis & Visualization.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/Analysis%20%26%20Visualization.R)  
 
-the results:
+Few of the results:  
+<img width="1378" height="128" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/fa1a91c5-046a-471b-83e2-b32e8ebd3de8" />  
+<img width="1387" height="525" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/f1b78bc3-6d4b-45d1-bc0c-00b695c1854e" />  
+<img width="1375" height="223" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/0be0f5f5-10b9-4019-9340-e40ace358ced" />
+
 
 
 **Analyzing Bike Usage Patterns**  
