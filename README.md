@@ -105,9 +105,11 @@ At this point, it is crucial to revisit the business track. This helps one stay 
 [Added Columns.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Added%20Columns.R)
 
 After processing the datasets, I’ll go ahead and clean one last time. This is to remove any bad data and my main focus is on the Trip_duration column. 
-I'll go ahead and remove trips that are less 1 minute and those more than 24 hours (1440 mins) 
+I'll go ahead and remove trips that are less 1 minute and those more than 24 hours (1440 mins) [Data Cleaning.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Data%20Cleaning.R)  
+I went ahead to check the cleaned data by using the "summary" function.
 
-<img width="1389" height="140" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/b3d1fe29-8d8b-49e6-9ef4-5d76ba1e8599" />
+<img width="1369" height="251" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/1a271dd3-9fcf-4ce7-a63a-720ddb14da99" />
+
 
 
 
