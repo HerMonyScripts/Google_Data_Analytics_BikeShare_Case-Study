@@ -108,18 +108,15 @@ After processing the datasets, I’ll go ahead and clean one last time. This is 
 I'll go ahead and remove trips that are less 1 minute and those more than 24 hours (1440 mins) [Data Cleaning.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Data%20Cleaning.R)  
 I went ahead to check the cleaned data by using the "summary" function.
 
-<img width="1369" height="251" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/1a271dd3-9fcf-4ce7-a63a-720ddb14da99" />
+<img width="1369" height="251" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/1a271dd3-9fcf-4ce7-a63a-720ddb14da99" />  
 
+From here, I can now go ahead and export my summary file for further analysis. I’ll be using it to create more visualization in Tableau, though I'll still create some in R. I exported the dataframe using the write.csv() function.
 
-
-
-From here, I can now go ahead and export my summary file for further analysis. I’ll be using it to create more visualization in Tableau, though I'll still create some in R. I export the dataframe using the write.csv() function.
-
-`write.csv(Cleaned_Divvy2021, file = “Cyclistic_Divvy2021.csv”)`
+`write.csv(Cleaned_df, file = “Cyclistic2021.csv”)`
 ### Analyze Phase
 Now it’s time to analyze the data and look for key information needed to perform analysis, and afterward, visualize it!
 
-In order to answer the first business question - how do casual and annual members using Cyclistic differently. It would be of great help to do some plotting from the information in our dataset. 
+In order to answer the first business question - how do casual and annual members using Cyclistic differently. I will carry out a descriptive analysis.
 
 **Analyzing Bike Usage Patterns**  
 **Weekly Usage:** Compare how casual riders and annual members utilize bikes on different days of the week.  
