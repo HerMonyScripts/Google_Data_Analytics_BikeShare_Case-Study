@@ -116,7 +116,10 @@ From here, I can now go ahead and export my summary file for further analysis. I
 ### Analyze Phase
 Now it’s time to analyze the data and look for key information needed to perform analysis, and afterward, visualize it!
 
-In order to answer the first business question - how do casual and annual members using Cyclistic differently. I will carry out a descriptive analysis.
+In order to answer the first business question - how do casual and annual members using Cyclistic differently. I will carry out a descriptive analysis. [Analysis & Visualization.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/Analysis%20%26%20Visualization.R)  
+
+the results:
+
 
 **Analyzing Bike Usage Patterns**  
 **Weekly Usage:** Compare how casual riders and annual members utilize bikes on different days of the week.  
