@@ -113,7 +113,8 @@ I went ahead to check the cleaned data by using the "summary" function.
 From here, I can now go ahead and export my summary file for further analysis. I’ll be using it to create more visualization in Tableau, though I'll still create some in R. I exported the dataframe using the write.csv() function.
 
 `write.csv(Cleaned_df, file = “Cyclistic2021.csv”)`
-### Analyze Phase
+
+### Analyze & Share Phase (RStudio)
 Now it’s time to analyze the data and look for key information needed to perform analysis, and afterward, visualize it!
 
 In order to answer the first business question - how do casual and annual members using Cyclistic differently. I will carry out a descriptive analysis. [Analysis & Visualization.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/Analysis%20%26%20Visualization.R)  
@@ -123,24 +124,15 @@ Few of the results:
 <img width="1387" height="525" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/f1b78bc3-6d4b-45d1-bc0c-00b695c1854e" />  
 <img width="1375" height="223" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/0be0f5f5-10b9-4019-9340-e40ace358ced" />
 
+To create the visuals/plots, I'll be using the _ggplot()_ function in RStudio
 
+![Rplot05](https://github.com/user-attachments/assets/bac55884-f38c-4d86-830d-3aeb39138108)
 
-**Analyzing Bike Usage Patterns**  
-**Weekly Usage:** Compare how casual riders and annual members utilize bikes on different days of the week.  
-**Hourly Usage Throughout the Week:** Identify the busiest times of day for bike usage for both user types.  
-**Monthly Usage:** Examine how bike usage fluctuates throughout the year.  
-**Trip Duration:** Determine the average trip length for casual riders versus members.  
-**Popular Stations:** Pinpoint the most frequently used stations for both casual and annual users.
+![Rplot06](https://github.com/user-attachments/assets/aea61aa2-46ab-4260-9709-99d010d86202)
 
-**Key Insights**  
-Analyzing these visualizations will provide insights into the distinct behaviors of casual and member riders. For instance, you might discover that casual riders use bikes primarily on weekends for leisure, while members use them for daily commutes during the week. Understanding these differences is crucial for developing targeted marketing strategies to convert casual riders into annual members.  
-For the plotting, I’ll be utilizing the ggplot2() package in R.  
-[Analysis & Visualization.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Analysis%20%26%20Visualization.R)
+![Rplot07](https://github.com/user-attachments/assets/43c350bd-6c33-4753-a42e-2f274fb4101d)
 
-**Visuals:**
-![Rplot01](https://github.com/user-attachments/assets/3ae77e26-4e99-4961-9071-b7e1df454f2a)
+From the above analysis and visuals, we can already determine how differently casual and annual members uses Cyclistic bikes.
 
-
-
-
-
+## Analyze & Share (Tableau)  
+Visualization: Tableau
