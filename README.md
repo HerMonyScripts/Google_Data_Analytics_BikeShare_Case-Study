@@ -166,7 +166,7 @@ Note: The above are the top 20 popular stations among annual members, to see tha
 <img width="1718" height="786" alt="Rideable type by member type" src="https://github.com/user-attachments/assets/c6c59a51-3608-460c-ad35-8f2e3f31eb57" />
 The above shows that annual members uses more of classic_bike, followed by electric_bike, and docked_bike are common among casual riders, in fact, docked bikes are been used by casual riders only.
 
-### ACT PHASE
+#### ACT PHASE
 **Top Three Findings:**
 Usage Purpose: Casual riders take significantly longer, more leisurely rides, with usage peaking on weekends. This suggests they use the bikes for recreation and tourism. Members take shorter, more frequent rides, with high usage on weekdays, suggesting use for commuting.
 
