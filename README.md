@@ -135,4 +135,56 @@ To create the visuals/plots, I'll be using the _ggplot()_ function in RStudio
 From the above analysis and visuals, we can already determine how differently casual and annual members uses Cyclistic bikes.
 
 ## Analyze & Share (Tableau)  
-Visualization: Tableau
+Visualization: [Tableau](https://public.tableau.com/app/profile/harmony.akah/viz/CyclisticBikeCapstoneProject/Avgtripdurationbymembertype#1)
+
+Just a refresh to the business task: we're asked to determine how casual riders and annual members uses Cyclistic bikes differently.  
+Below are some visualizations I created using Tableau that answers the business question:  
+
+<img width="1998" height="1598" alt="Total Usage by member type (1)" src="https://github.com/user-attachments/assets/c38c40f0-4168-4c36-a1a6-523b9abea306" />
+
+The above picture is a dashboard comprising of different charts I created.  
+In the first chart: _**Weekly Usage by Member Type**_, you'll notice that the ride count among annual members are fairly stable during weekday and also higher than that of casual riders and decline over the weekend, having casual riders topping. This would only indicate that there is a high possibility that annual members are using Cyclistic bikes for commuting.  
+
+Also, a close look at the third chart: _**Hourly Usage of bike throughout the Week**_(Note: I created the chart in way one can read the performance of each day(s) selected). Notice that I checked weekdays only, apparantly, annual members are topping and also observe that annual members riders are the toppest by 8am and 5pm. This only strengthened our prediction that annual members are majorly using Cyclstic bikes for communiting.  
+
+On the other hand, ride count among casual members are fairly low during weekdays, and starts going up from Friday and peaks on Saturdays.  
+Then from the second chart: _**Number of rides in a month**_, it shows that the major period casual riders uses Cyclistic bikes are between June to September with a peak in June.
+
+<img width="1998" height="1598" alt="Avg trip duration by member type" src="https://github.com/user-attachments/assets/f28496f0-6996-46c3-8ddc-ffa534099bac" />  
+
+The above shows that casual riders cycles more than annual members do. Also, it shows that the average length of the annuals members are almost the same throughout the year, while that of casual riders varies.
+
+<img width="2112" height="874" alt="Trip comparison by member type" src="https://github.com/user-attachments/assets/c0cf40d3-1daa-47d0-a5aa-24f291bc5ed8" />
+
+From the above plots, we can deduce that annual members made the most trips far way than casual riders, but shockingly, the total trip duration of the casual members are almost X2 of that of annual members.
+
+To further understand how casual riders and annual members uses Cyclistic bikes differently, I went ahead and analysed the top 20 start station between both members.  
+<img width="1718" height="796" alt="20 Populations between casual   annual members" src="https://github.com/user-attachments/assets/9da0db1c-c364-4d00-9217-094b725c8888" />
+
+Note: The above are the top 20 popular stations among annual members, to see that of casual riders, check the casual button.
+
+<img width="1718" height="786" alt="Rideable type by member type" src="https://github.com/user-attachments/assets/c6c59a51-3608-460c-ad35-8f2e3f31eb57" />
+The above shows that annual members uses more of classic_bike, followed by electric_bike, and docked_bike are common among casual riders, in fact, docked bikes are been used by casual riders only.
+
+### ACT PHASE
+**Top Three Findings:**
+Usage Purpose: Casual riders take significantly longer, more leisurely rides, with usage peaking on weekends. This suggests they use the bikes for recreation and tourism. Members take shorter, more frequent rides, with high usage on weekdays, suggesting use for commuting.
+
+Location: The most popular stations for casual riders are concentrated near parks, lakefronts, and tourist attractions. Member-popular stations are in residential and business districts.
+
+Seasonality: While both user types prefer warmer months, the trend is more pronounced for casual riders, reinforcing the idea of recreational use.
+
+**Actionable Recommendations:**
+Based on these findings, here are three recommendations for the marketing team:  
+1. Create a "Weekend Warrior" Membership.  
+**Why:** Casual riders are most active on weekends.  
+**How:** Offer a discounted annual membership that provides added benefits for weekend rides or create a lower-cost "weekend-only" pass. Market this at popular tourist-heavy stations.
+
+2. Implement a Loyalty Program for Longer Rides.
+  ** Why:** Casual riders enjoy long, scenic rides.
+   **How:** Create a membership tier that rewards riders with points or discounts for longer-duration rides, turning their recreational habit into a reason to subscribe.
+
+
+
+
+
