@@ -1,51 +1,39 @@
 # Google_Data_Analytics_BikeShare_Case-Study
-This repository is about my Google Data Analytics capstone project.
+This repository is about my Google Data Analytics Capstone Project.
 
 **Course:** [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone/home/module/1)
 
 ## **INTRODUCTION**
 
-I am to work as a junior data analyst for a fictictional company, Cyclistic, along with other some key team members. I am to perform a data anaylsis using the company's annual dataset to help the company attract more riders.
-I will be adopting the six (6) phases of data analysis, which includes: the [Ask](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#ask-phase), [Prepare](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#prepare-phase), [Process](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#process-phase), [Analyze](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#analyze-phase), Share and Act phases in other to answer the business question.
+I am to work as a junior data analyst for a fictional company - Cyclistic, along with other key team members. I am to perform a data analysis using the company's annual dataset to help the company maximize more annual members.
+I will be adopting the six (6) phases of data analysis, which includes: the [Ask](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#ask-phase), [Prepare](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#prepare-phase), [Process](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#process-phase), [Analyze & Share](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#analyze-phase), and [Act](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/README.md#act-phase) phases in other to answer the business question.
 
 ## **CASE STUDY**
 ### **Scenario**
-You are a junior data analyst working on the marketing analyst team at Cyclistic, a bike-share
-company in Chicago. The director of marketing believes the company’s future success
-depends on maximizing the number of annual memberships. Therefore, your team wants to
-understand how casual riders and annual members use Cyclistic bikes differently. From these
-insights, your team will design a new marketing strategy to convert casual riders into annual
-members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+You are a junior data analyst working on the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 ### About The Company
 In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime.
 
 
-Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the
-flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships.
+Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships.
 Customers who purchase single-ride or full-day passes are referred to as casual riders.
 Customers who purchase annual memberships are Cyclistic members.
 
 
-Cyclistic’s finance analysts have concluded that annual members are much more profitable
-than casual riders. Although the pricing flexibility helps Cyclistic attract more customers,
-Moreno believes that maximizing the number of annual members will be key to future growth.
+Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing flexibility helps Cyclistic attract more customers, Moreno believes that maximizing the number of annual members will be key to future growth.
 
 
-Rather than creating a marketing campaign that targets all-new customers, Moreno believes
-there is a solid opportunity to convert casual riders into members. She notes that casual riders
-are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
-Moreno has set a clear goal: Design marketing strategies aimed at converting casual riders into
-annual members. In order to do that, however, the team needs to better understand how
-annual members and casual riders differ, why casual riders would buy a membership, and how
-digital media could affect their marketing tactics. Moreno and her team are interested in
-analyzing the Cyclistic historical bike trip data to identify trends.
-### Ask Phase
-It is of utmost importance understand the business task or the question to be answered. In this case study, below are the three questions/business tasks that will guide the future marketing program:
+Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members. She notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
+Moreno has set a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, the team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
+
+### Ask Phase  
+It is of utmost importance to understand the business task or the question to be answered. In this case study, below are the three questions/business tasks that will guide the future marketing program:
 1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 Moreno has assigned you the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
+
 ### Prepare Phase
 I’ll be working with Cyclistic’s historical trip data [_here_](https://divvy-tripdata.s3.amazonaws.com/index.html). I’ll be working with 12 Months of the Cyclistic’s data history, from Jan - Dec 2021 to analyze and identify trends.
 
@@ -75,7 +63,7 @@ Subsequently, I’ll have to import the files into our RStudio using the read_cs
 <img width="1369" height="526" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/957eb622-553f-4bfa-9d15-a6c4889d65b0" />
 
 
-Next would be to check the structure of our dataset using the str() function. This is crucial as I would be merging all the csv files into one table called dataframe. So, I need to check if there’s any inconsistencies in the formatting (maybe a dataset’s ID column being formatted as “int” and the other formatted as “chr”.  
+Next would be to check the structure of our dataset using the str() function. This is crucial as I would be merging all the csv files into one table called dataframe. So, I need to check if there’s any inconsistencies in the formatting (maybe a dataset’s ID column being formatted as “int” and the other formatted as “chr”).  
 The 12 datasets need to have the same column names and formatting type. Also, I need to check if there are any wrongly formatted data types.
 
 The str() function will help list the structures of the datasets:  
@@ -105,10 +93,11 @@ At this point, it is crucial to revisit the business track. This helps one stay 
 [Added Columns.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Added%20Columns.R)
 
 After processing the datasets, I’ll go ahead and clean one last time. This is to remove any bad data and my main focus is on the Trip_duration column. 
-I'll go ahead and remove trips that are less 1 minute and those more than 24 hours (1440 mins) [Data Cleaning.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Data%20Cleaning.R)  
+I'll go ahead and remove trips that are less than 1 minute and those more than 24 hours (1440 mins) [Data Cleaning.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/blob/main/Data%20Cleaning.R)  
 I went ahead to check the cleaned data by using the "summary" function.
 
 <img width="1369" height="251" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/1a271dd3-9fcf-4ce7-a63a-720ddb14da99" />  
+
 
 From here, I can now go ahead and export my summary file for further analysis. I’ll be using it to create more visualization in Tableau, though I'll still create some in R. I exported the dataframe using the write.csv() function.
 
@@ -117,7 +106,7 @@ From here, I can now go ahead and export my summary file for further analysis. I
 ### Analyze & Share Phase (RStudio)
 Now it’s time to analyze the data and look for key information needed to perform analysis, and afterward, visualize it!
 
-In order to answer the first business question - how do casual and annual members using Cyclistic differently. I will carry out a descriptive analysis. [Analysis & Visualization.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/Analysis%20%26%20Visualization.R)  
+In order to answer the first business question - how do casual riders and annual members use Cyclistic differently? I will carry out a descriptive analysis. [Analysis & Visualization.R](https://github.com/HerMonyScripts/Google_Data_Analytics_BikeShare_Case-Study/edit/main/Analysis%20%26%20Visualization.R)  
 
 Few of the results:  
 <img width="1378" height="128" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/fa1a91c5-046a-471b-83e2-b32e8ebd3de8" />  
@@ -142,13 +131,15 @@ Below are some visualizations I created using Tableau that answers the business 
 
 <img width="1998" height="1598" alt="Total Usage by member type (1)" src="https://github.com/user-attachments/assets/c38c40f0-4168-4c36-a1a6-523b9abea306" />
 
-The above picture is a dashboard comprising of different charts I created.  
-In the first chart: _**Weekly Usage by Member Type**_, you'll notice that the ride count among annual members are fairly stable during weekday and also higher than that of casual riders and decline over the weekend, having casual riders topping. This would only indicate that there is a high possibility that annual members are using Cyclistic bikes for commuting.  
+The above picture is a dashboard comprising of different charts I created.
 
-Also, a close look at the third chart: _**Hourly Usage of bike throughout the Week**_(Note: I created the chart in way one can read the performance of each day(s) selected). Notice that I checked weekdays only, apparantly, annual members are topping and also observe that annual members riders are the toppest by 8am and 5pm. This only strengthened our prediction that annual members are majorly using Cyclstic bikes for communiting.  
+In the first chart:  _**Weekly Usage by Member Type**_, you'll notice that the ride count among annual members are fairly stable during weekday and also higher than that of casual riders and decline over the weekend, having casual riders topping. This would only indicate that there is a high possibility that annual members are using Cyclistic bikes for commuting.  
 
-On the other hand, ride count among casual members are fairly low during weekdays, and starts going up from Friday and peaks on Saturdays.  
-Then from the second chart: _**Number of rides in a month**_, it shows that the major period casual riders uses Cyclistic bikes are between June to September with a peak in June.
+Also, a close look at the third chart:  _**Hourly Usage of bike throughout the Week**_ (Note: I created the chart in a way one can read the performance of each day(s) selected). Notice that I checked weekdays only, apparantly, annual members are topping and also observe that annual members ride count peaks by 8am and 5pm. This only strengthened my prediction that annual members are majorly using Cyclstic bikes for communiting.  
+
+On the other hand, the ride count among casual riders are fairly low during weekdays, and starts going up from Friday and peaks on Saturdays.  
+
+Then from the second chart:  _**Number of rides in a month**_, it shows that the major period casual riders uses Cyclistic bikes are between June to September with a peak in July.
 
 <img width="1998" height="1598" alt="Avg trip duration by member type" src="https://github.com/user-attachments/assets/f28496f0-6996-46c3-8ddc-ffa534099bac" />  
 
@@ -156,12 +147,12 @@ The above shows that casual riders cycles more than annual members do. Also, it 
 
 <img width="2112" height="874" alt="Trip comparison by member type" src="https://github.com/user-attachments/assets/c0cf40d3-1daa-47d0-a5aa-24f291bc5ed8" />
 
-From the above plots, we can deduce that annual members made the most trips far way than casual riders, but shockingly, the total trip duration of the casual members are almost X2 of that of annual members.
+From the above plots, we can deduce that annual members made the most trips far way higher than casual riders, but shockingly, the total trip duration of the casual riders are almost X2 of that of annual members.
 
 To further understand how casual riders and annual members uses Cyclistic bikes differently, I went ahead and analysed the top 20 start station between both members.  
 <img width="1718" height="796" alt="20 Populations between casual   annual members" src="https://github.com/user-attachments/assets/9da0db1c-c364-4d00-9217-094b725c8888" />
 
-Note: The above are the top 20 popular stations among annual members, to see that of casual riders, check the casual button.
+Note: The above are the top 20 popular start stations among annual members, to see that of casual riders, check the casual button.
 
 <img width="1718" height="786" alt="Rideable type by member type" src="https://github.com/user-attachments/assets/c6c59a51-3608-460c-ad35-8f2e3f31eb57" />
 The above shows that annual members uses more of classic_bike, followed by electric_bike, and docked_bike are common among casual riders, in fact, docked bikes are been used by casual riders only.
@@ -170,18 +161,22 @@ The above shows that annual members uses more of classic_bike, followed by elect
 **Top Three Findings:**
 Usage Purpose: Casual riders take significantly longer, more leisurely rides, with usage peaking on weekends. This suggests they use the bikes for recreation and tourism. Members take shorter, more frequent rides, with high usage on weekdays, suggesting use for commuting.
 
-Location: The most popular stations for casual riders are concentrated near parks, lakefronts, and tourist attractions. Member-popular stations are in residential and business districts.
+Location: The most popular stations for casual riders are concentrated near parks, lakefronts, and tourist attractions. While that of annual member's popular stations are in residential and business districts.
 
 Seasonality: While both user types prefer warmer months, the trend is more pronounced for casual riders, reinforcing the idea of recreational use.
 
-**Actionable Recommendations:**
-Based on these findings, here are three recommendations for the marketing team:  
-1. Create a "Weekend Warrior" Membership.  
-**Why:** Casual riders are most active on weekends.  
-**How:** Offer a discounted annual membership that provides added benefits for weekend rides or create a lower-cost "weekend-only" pass. Market this at popular tourist-heavy stations.
+**Recommendations:**
+Based on these findings, here are two recommendations for the marketing team:  
+1. Create a "Weekend Warrior" Membership.
 
-2. Implement a Loyalty Program for Longer Rides.
-  ** Why:** Casual riders enjoy long, scenic rides.
+   **Why:** Casual riders are most active on weekends.
+
+   **How:** Offer a discounted annual membership that provides added benefits for weekend rides or create a lower-cost "weekend-only" pass. Market this at popular tourist-heavy stations.
+
+3. Implement a loyalty program for longer rides.
+
+   **Why:** Casual riders enjoy long, scenic rides.
+
    **How:** Create a membership tier that rewards riders with points or discounts for longer-duration rides, turning their recreational habit into a reason to subscribe.
 
 
